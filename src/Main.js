@@ -19,6 +19,7 @@ export const Main = () => {
             <DialogContent>
                 <iframe
                     id="myframe"
+                    title="sometitle"
                     height={400}
                     width={400}
                     src={`https://example-express-redirection.onrender.com/?redirect=${window.location.origin+'/relogin'}`}
